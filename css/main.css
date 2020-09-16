@@ -233,8 +233,13 @@ body {
   margin-bottom: 2rem
 }
 
+.footer p {
+  font-size: max(1.125rem, 1.15vw);
+}
+
 @media screen and (max-width: 62.5em) {
-  .features p {
+  .features p,
+  .features ul {
     grid-column: 3 / span 4;
   }
 }
